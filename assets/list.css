@@ -203,3 +203,74 @@ html {
     }
 }
 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #eeeeee;
+    }
+
+    .super-responsive-table {
+        color: #eeeeee;
+    }
+
+        .super-responsive-table thead th {
+            color: #ffffff;
+            border-bottom-color: #444444;
+        }
+
+        .super-responsive-table tbody td {
+            color: #cccccc;
+            border-top-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .super-responsive-table tbody a {
+            color: #6aa0ff; 
+        }
+
+        .super-responsive-table .table--cell-bold {
+            font-family: "SST","Noto Sans JP","Hiragino Kaku Gothic ProN","Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-weight: 500;
+            color: #eeeeee
+        }
+
+    .super-responsive-table--header:before,
+    .super-responsive-table--header:after {
+        border-bottom-color: #bbbbbb;
+        border-top-color: #bbbbbb;
+    }
+
+
+    .responsiveTable td .tdBefore {
+        color: #cccccc;
+    }
+
+    .responsiveTable td {
+        color: #eeeeee;
+    }
+
+        .responsiveTable td a {
+            color: #6aa0ff;
+        }
+
+    @media screen and (min-width: 768px) {
+        .super-responsive-table tbody tr:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .responsiveTable td {
+            border: none !important;
+        }
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 17px;
+        color: #ffffff;
+        margin-bottom: 20px;
+        line-height: 1.5;
+    }
+}
+
+
