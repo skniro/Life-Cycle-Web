@@ -1,23 +1,17 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title></title>
     <link href="assets/fabric.css" rel="stylesheet" />
     <link href="assets/fabric.components.min.css" rel="stylesheet" />
     <link href="assets/main.css" rel="stylesheet" />
     <link rel="stylesheet" href="../assets/docs.css">
     <link rel="stylesheet" href="../assets/list.css">
-    <script async custom-element="amp-auto-ads"
-            src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-    </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9004356343429206"
-            crossorigin="anonymous"></script>
+    <script src="../assets/jquery-3.6.0.js"></script>
+    <script id="css">$("#css").load("/base.html");</script>
+    <meta charset="utf-8" />
+    <title></title>
 </head>
 <body class="ms-Fabric">
-    <amp-auto-ads type="adsense"
-                  data-ad-client="ca-pub-9004356343429206">
-    </amp-auto-ads>
     <div id="body-content">
         <div class="Header" id="header">
             <div class="nav">
@@ -25,30 +19,10 @@
             </div>
         </div>
         <div class="Page has-leftNav">
-            <div class="Page-leftNav">
-                <div class="LeftNav-links">
-                    <div class="LeftNav-item">
-                        <a class="LeftNav-link ms-border-color-themePrimary ms-font-l ms-font-color-neutralSecondary" href="../index.html">Life Cycle</a>
-                    </div>
-                    <div class="LeftNav-item">
-                        <a class="LeftNav-link ms-border-color-themePrimary ms-font-l ms-font-color-neutralSecondary" href="../indexPart2.html">Life Cycle Part2</a>
-                    </div>
-                    <div class="LeftNav-item">
-                        <a class="LeftNav-link ms-border-color-themePrimary ms-font-l ms-font-color-neutralSecondary" href="../Legacy.html">Life Cycle(Legacy Version)</a>
-                    </div>
-                    <!--     <div class="LeftNav-item">
-        <a class="LeftNav-link ms-border-color-themePrimary ms-font-l ms-font-color-neutralSecondary" href="/GrowableOres">GrowableOres - Ore Cane</a>
-    </div>
-    <div class="LeftNav-item">
-        <a class="Icons LeftNav-link ms-border-color-themePrimary ms-font-l ms-font-color-neutralSecondary" href="/UsefulFood_Reborn">UsefulFood Reborn</a>
-    </div>
-    <div class="LeftNav-item">
-        <a class="Animations LeftNav-link ms-border-color-themePrimary ms-font-l ms-font-color-neutralSecondary" href="/Better_Snowball">Better Snowball</a>
-    </div>
-    <div class="LeftNav-item">
-        <a class="Responsive-Grid LeftNav-link ms-border-color-themePrimary ms-font-l ms-font-color-neutralSecondary" href="/Super_Apple">Super Apple</a>
-    </div>-->
-                </div>
+            <div id="new-header">
+                <script>
+                    $("#new-header").load("/nav.html");
+                </script>
             </div>
             <table class="super-responsive-table responsiveTable" style="table-layout:auto;width:fit-content">
                 <thead>
@@ -132,8 +106,8 @@
                             </div>
                         </td>
                         <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Better Snowball</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>N/A</strong></p><p><strong></strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>UsefulFood Reborn</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>2 Years</strong></p><p><strong>(2023/8 Start)</strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>GrowableOres - Ore Cane/Extension</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>1 Years 6 Months</strong></p><p><strong>(2023/10 Start)(EOL)(*1)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>UsefulFood Reborn</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2023/8 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>GrowableOres - Ore Cane/Extension</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2023/10 Start)</strong></p></div></div></td>
                         <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Maple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>1 Years 6 Months</strong></p><p><strong>(2023/7 Start)(EOL)(*1)</strong></p></div></div></td>
                         <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Super Apple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>1 Years</strong></p><p><strong>(2023/10 Start)(EOL)(*1)</strong></p></div></div></td>
                     </tr>
@@ -147,8 +121,8 @@
                             </div>
                         </td>
                         <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Better Snowball</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>N/A</strong></p><p><strong></strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>UsefulFood Reborn</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>2 Years</strong></p><p><strong>(2023/8 Start)</strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>GrowableOres - Ore Cane/Extension</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>1 Years 6 Months</strong></p><p><strong>(2023/10 Start)(EOL)(*1)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>UsefulFood Reborn</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2023/8 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>GrowableOres - Ore Cane/Extension</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2023/10 Start)</strong></p></div></div></td>
                         <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Maple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>2 Years</strong></p><p><strong>(2023/7 Start)(EOL)(*1)</strong></p></div></div></td>
                         <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Super Apple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>1 Years</strong></p><p><strong>(2023/10 Start)(EOL)(*1)</strong></p></div></div></td>
                     </tr>
@@ -191,11 +165,11 @@
                                 </div>
                             </div>
                         </td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Better Snowball</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>2 Years</strong></p><p><strong>(2023/10 Start)</strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>UsefulFood Reborn</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>2 Years</strong></p><p><strong>(2023/10 Start)</strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>GrowableOres - Ore Cane/Extension</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>2 Years</strong></p><p><strong>(2023/10 Start)</strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Maple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>2 Years</strong></p><p><strong>(2023/10 Start)</strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Super Apple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>2 Years</strong></p><p><strong>(2023/6 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Better Snowball</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>2 Years</strong></p><p><strong>(2023/10 Start)(EOL)(*1)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>UsefulFood Reborn</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2023/10 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>GrowableOres - Ore Cane/Extension</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2023/10 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Maple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>2 Years</strong></p><p><strong>(2023/10 Start)(EOL)(*1)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Super Apple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>2 Years</strong></p><p><strong>(2023/6 Start)(EOL)(*1)</strong></p></div></div></td>
                     </tr>
                     <tr>
                         <td class="delimiter pivoted">
@@ -223,7 +197,7 @@
                         </td>
                         <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Better Snowball</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>8 Months</strong></p><p><strong>(2024/1 Start)(EOL)(*1)</strong></p></div></div></td>
                         <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>UsefulFood Reborn</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>1 Years</strong></p><p><strong>(2023/12 Start(EOL)(*1)</strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>GrowableOres - Ore Cane/Extension</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>1 Years</strong></p><p><strong>(2023/12 Start)(EOL)(*1)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>GrowableOres - Ore Cane/Extension</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>1 Years 11 Months</strong></p><p><strong>(2023/12 Start)(EOL)(*1)</strong></p></div></div></td>
                         <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Maple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>N/A</strong></p><p><strong></strong></p></div></div></td>
                         <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Super Apple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>8 Months</strong></p><p><strong>(2023/12 Start)(EOL)(*1)</strong></p></div></div></td>
                     </tr>
@@ -246,16 +220,16 @@
                         <td class="delimiter pivoted">
                             <div class="tdBefore"><div class="rich-cell-render"><p>Mod</p></div></div><div class="table--cell-align-left">
                                 <div class="rich-cell-render">
-                                    <p><strong>1.21/1.21.1&nbsp;</strong></p>
+                                    <p><strong>1.21/1.21.1(LTS)&nbsp;</strong></p>
                                     <p></p>
                                 </div>
                             </div>
                         </td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Better Snowball</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>1 Years</strong></p><p><strong>(2024/6 Start)</strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>UsefulFood Reborn</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>1 Years</strong></p><p><strong>(2024/6 Start)</strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>GrowableOres - Ore Cane/Extension</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>1 Years</strong></p><p><strong>(2024/6 Start)</strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Maple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>8 Months</strong></p><p><strong>(2024/10 Start)</strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Super Apple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>8 Months</strong></p><p><strong>(2024/8 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Better Snowball</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2024/6 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>UsefulFood Reborn</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2024/6 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>GrowableOres - Ore Cane/Extension</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2024/6 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Maple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2024/10 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Super Apple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2024/8 Start)</strong></p></div></div></td>
                     </tr>
                     <tr>
                         <td class="delimiter pivoted">
@@ -281,11 +255,11 @@
                                 </div>
                             </div>
                         </td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Better Snowball</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>5 Months</strong></p><p><strong>(2024/11 Start)(EOL)(*1)</strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>UsefulFood Reborn</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>5 Months</strong></p><p><strong>(2024/11 Start)(EOL)(*1)</strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>GrowableOres - Ore Cane/Extension</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>5 Months</strong></p><p><strong>(2024/11 Start)(EOL)(*1)</strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Maple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>2 Months</strong></p><p><strong>(2025/2 Start)(EOL)(*1)</strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Super Apple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>5 Months</strong></p><p><strong>(2024/11 Start)(EOL)(*1)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Better Snowball</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2024/11 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>UsefulFood Reborn</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2024/11 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>GrowableOres - Ore Cane/Extension</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>7 Months</strong></p><p><strong>(2024/11 Start)(EOL)(*1)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Maple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2025/2 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Super Apple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2024/11 Start)</strong></p></div></div></td>
                     </tr>
                     <tr>
                         <td class="delimiter pivoted">
@@ -296,31 +270,54 @@
                                 </div>
                             </div>
                         </td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Better Snowball</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Until 1.21.6 or 1.22</strong></p><p><strong>(2025/3 Start)</strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>UsefulFood Reborn</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Until 1.21.6 or 1.22</strong></p><p><strong>(2025/3 Start)</strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>GrowableOres - Ore Cane/Extension</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Until 1.21.6 or 1.22</strong></p><p><strong>(2025/3 Start)</strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Maple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>N/A</strong></p><p><strong></strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Super Apple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Until 1.21.6 or 1.22</strong></p><p><strong>(2025/3 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Better Snowball</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2025/3 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>UsefulFood Reborn</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2025/3 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>GrowableOres - Ore Cane/Extension</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>7 Months</strong></p><p><strong>(2025/3 Start)(EOL)(*1)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Maple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2025/7 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Super Apple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2025/3 Start)</strong></p></div></div></td>
                     </tr>
                     <tr>
                         <td class="delimiter pivoted">
                             <div class="tdBefore"><div class="rich-cell-render"><p>Mod</p></div></div><div class="table--cell-align-left">
                                 <div class="rich-cell-render">
-                                    <p><strong>1.21.6/7&nbsp;</strong></p>
+                                    <p><strong>1.21.6/7/8&nbsp;</strong></p>
                                     <p></p>
                                 </div>
                             </div>
                         </td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Better Snowball</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Until 1.21.8 or 1.22</strong></p><p><strong>(2025/6 Start)</strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>UsefulFood Reborn</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Until 1.21.8 or 1.22</strong></p><p><strong>(2025/6 Start)</strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>GrowableOres - Ore Cane/Extension</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Until 1.21.8 or 1.22</strong></p><p><strong>(2025/6 Start)</strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Maple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>N/A</strong></p><p><strong></strong></p></div></div></td>
-                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Super Apple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Until 1.21.8 or 1.22</strong></p><p><strong>(2025/6 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Better Snowball</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2025/6 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>UsefulFood Reborn</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2025/6 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>GrowableOres - Ore Cane/Extension</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2025/6 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Maple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2025/7 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Super Apple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2025/6 Start)</strong></p></div></div></td>
+                    </tr>
+                    <tr>
+                        <td class="delimiter pivoted">
+                            <div class="tdBefore"><div class="rich-cell-render"><p>Mod</p></div></div><div class="table--cell-align-left">
+                                <div class="rich-cell-render">
+                                    <p><strong>1.21.9/10&nbsp;</strong></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Better Snowball</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2025/10 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>UsefulFood Reborn</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2025/10 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>GrowableOres - Ore Cane/Extension</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2025/10 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Maple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2025/10 Start)</strong></p></div></div></td>
+                        <td class="delimiter pivoted"><div class="tdBefore"><div class="rich-cell-render"><p><strong>Super Apple</strong></p></div></div><div class="table--cell-align-center"><div class="rich-cell-render"><p><strong>Support</strong></p><p><strong>(2025/10 Start)</strong></p></div></div></td>
                     </tr>
                 </tbody>
             </table>
             <h3>*1 End of life(EOL) version still receive bug issue.</h3>
         </div>
     </div>
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-format="autorelaxed"
+         data-ad-client="ca-pub-9004356343429206"
+         data-ad-slot="2632000402"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
 </body>
 </html>
